@@ -63,8 +63,8 @@ public class DashBoard extends TestBase {
             SoftAssert softAssertion2= new SoftAssert();
             System.out.println("Selected_Product Click");
             softAssertion2.assertTrue(false);
-            System.out.println("softAssert Method Was Executed");
-            Thread.sleep(2000);
+            System.out.println("Selected_Product_softAssert_Method_Was_Executed");
+            Thread.sleep(5000);
             ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
             driver.navigate().to(TestBase.getxpath("URLNEW"));
             System.out.println("URLNEW");

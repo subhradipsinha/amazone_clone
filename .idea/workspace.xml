@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d13dcfe9-4c18-419b-b52f-00a19fc921e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OR.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="77">
+              <caret line="65" column="67" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -71,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Config.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -86,6 +83,7 @@
     <findStrings>
       <find>/html[1]/body[1]/div[1]/div[2]/div[1]/div[2]/div[1]/span[3]/div[2]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]/a[1]</find>
       <find>Item_Selected</find>
+      <find>softAssert Method Was Executed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,10 +94,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/demo/ConfigarationManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" />
         <option value="$PROJECT_DIR$/src/main/resources/OR.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" />
       </list>
     </option>
   </component>
@@ -206,7 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595716391855" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595717446278" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -277,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595715734520</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="forth chrome driver">
+      <created>1595716669501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595716669501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -382,7 +387,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="test1" />
     <MESSAGE value="third firefox driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="third firefox driver" />
+    <MESSAGE value="forth chrome driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="forth chrome driver" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestNG.xml">
@@ -399,13 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -434,6 +433,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="65" column="67" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
         </state>
       </provider>
     </entry>

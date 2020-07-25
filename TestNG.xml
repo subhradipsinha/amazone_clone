@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="amazone-test">
+    <test name="amazone-test">
+        <classes>
+            <class name="com.TestCase.Login.Login_Page"></class>
+            <class name="com.TestCase.Dashboard_Testdata.Dashboard"></class>
+        </classes>
+        </test>
+    </suite>

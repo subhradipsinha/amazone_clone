@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [amazone]">
+  <test thread-count="5" name="amazone(failed)">
+    <classes>
+      <class name="com.TestCase.Dashboard_Testdata.Dashboard">
+        <methods>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- com.TestCase.Dashboard_Testdata.Dashboard -->
+    </classes>
+  </test> <!-- amazone(failed) -->
+</suite> <!-- Failed suite [amazone] -->

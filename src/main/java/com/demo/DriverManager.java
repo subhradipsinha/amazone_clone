@@ -23,7 +23,7 @@ public class DriverManager extends ConfigarationManager {
         String browsername = ConfigarationManager.config.getProperty("browser");
         if (browsername.equalsIgnoreCase("Chrome")) {
 
-            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver2\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver_windows_84\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
 

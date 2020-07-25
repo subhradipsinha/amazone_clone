@@ -53,7 +53,7 @@ public class DashBoard extends TestBase {
         }
         Thread.sleep(2000);
         ((JavascriptExecutor) TestBase.driver).executeScript("scroll(0,300)");
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         //Item Selected
         WebElement Selected_Product = TestBase.byXpath("Item_Selected");

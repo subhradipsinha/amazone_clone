@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13dcfe9-4c18-419b-b52f-00a19fc921e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Driver/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver2/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver_windows_84/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+            <state relative-caret-position="1479">
+              <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -30,8 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="15" selection-start-line="9" selection-end-line="9" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -55,6 +63,7 @@
       <find>//*[@id=&quot;attach-sidesheet-view-cart-button&quot;]/span/input</find>
       <find>Add to the chart item Working</find>
       <find>Enter Button Click Second time</find>
+      <find>select</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,14 +73,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/demo/ConfigarationManager.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/TestCase/Dashboard_Testdata/java.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/TestCase/Dashboard_Testdata/java_int.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestData.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/OR.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" />
       </list>
     </option>
@@ -88,12 +97,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="amazone-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazone-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
@@ -117,6 +132,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazone-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
@@ -162,17 +185,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596191185450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596221915113" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sw\Homework1\amazone-master\Driver" />
       <recent name="E:\sw\Homework1\amazone-master\Driver2" />
       <recent name="E:\sw\Homework1\amazone-master\Driver_windows_84" />
     </key>
@@ -287,25 +310,17 @@
       <option name="project" value="LOCAL" />
       <updated>1596189841514</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Nineth chrome driver">
+      <created>1596191290499</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596191290499</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.26 at 01h 40m 21s.xml">
-      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.26 at 02h 46m 07s.xml">
-      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.26 at 03h 05m 46s.xml">
-      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.26 at 03h 30m 18s.xml">
-      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.26 at 03h 42m 47s.xml">
-      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.26 at 03h 46m 36s.xml">
       <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -319,6 +334,21 @@
       <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.31 at 15h 52m 39s.xml">
+      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.31 at 15h 57m 25s.xml">
+      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.31 at 23h 40m 43s.xml">
+      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.07.31 at 23h 47m 50s.xml">
+      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.08.01 at 00h 27m 38s.xml">
+      <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__sw_Homework1_amazone-master_TestNG_xml - 2020.08.01 at 00h 31m 15s.xml">
       <configuration name="E:/sw/Homework1/amazone-master/TestNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -339,7 +369,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27155825" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27987897" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -411,7 +441,8 @@
     <MESSAGE value="Sixth chrome driver" />
     <MESSAGE value="Seventh chrome driver" />
     <MESSAGE value="Eight chrome driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eight chrome driver" />
+    <MESSAGE value="Nineth chrome driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nineth chrome driver" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/TestCase/Dashboard_Testdata/java_int.java" />
@@ -429,31 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="119" selection-start-line="26" selection-start-column="119" selection-end-line="26" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/ConfigarationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -471,17 +481,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/OR.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="166" column="74" selection-start-line="166" selection-start-column="74" selection-end-line="166" selection-end-column="74" />
+        <state relative-caret-position="1479">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
         </state>
       </provider>
     </entry>

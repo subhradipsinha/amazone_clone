@@ -79,6 +79,18 @@
             <artifactId>extentreports</artifactId>
             <version>2.41.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.weaselworks/ChromeDriver -->
+        <dependency>
+            <groupId>com.github.weaselworks</groupId>
+            <artifactId>ChromeDriver</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/chromedriver -->
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>chromedriver</artifactId>
+            <version>1.2</version>
+        </dependency>
 
 
 

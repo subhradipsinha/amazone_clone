@@ -171,6 +171,10 @@ public class DashBoard extends TestBase {
                 softAssertion7.assertTrue(false);
                 System.out.println("softAssert Method Was Executed");
 
+
+
+
+
                  ArrayList<String> tabs3 = new ArrayList<String>(driver.getWindowHandles());
                  driver.navigate().to(TestBase.getxpath("URLNEW_1"));
                  System.out.println("URLNEW_1");
@@ -187,6 +191,9 @@ public class DashBoard extends TestBase {
                  softAssertion7.assertTrue(true);
                  System.out.println("softAssert Method Was Executed");
         }
+
+
+
 
             //Add to the chart item
             WebElement Add_Chart_1 = TestBase.byXpath("Add_to_the_chart");

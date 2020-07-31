@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13dcfe9-4c18-419b-b52f-00a19fc921e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver3/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1479">
               <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="26" column="119" selection-start-line="26" selection-start-column="119" selection-end-line="26" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -79,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/TestData.properties" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/OR.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java" />
       </list>
     </option>
   </component>
@@ -114,6 +131,11 @@
               <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="amazone-master" type="462c0819:PsiDirectoryNode" />
               <item name="Driver2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amazone-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Driver3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amazone-master" type="b2602c69:ProjectViewProjectNode" />
@@ -189,12 +211,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596221915113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596223798170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sw\Homework1\amazone-master\Driver3" />
       <recent name="E:\sw\Homework1\amazone-master\Driver" />
       <recent name="E:\sw\Homework1\amazone-master\Driver2" />
       <recent name="E:\sw\Homework1\amazone-master\Driver_windows_84" />
@@ -317,7 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596191290499</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tenth chrome driver">
+      <created>1596222228025</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596222228025</updated>
+    </task>
+    <task id="LOCAL-00011" summary="eleven chrome driver">
+      <created>1596222438789</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596222438789</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -377,7 +414,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.36006546" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -442,7 +479,9 @@
     <MESSAGE value="Seventh chrome driver" />
     <MESSAGE value="Eight chrome driver" />
     <MESSAGE value="Nineth chrome driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nineth chrome driver" />
+    <MESSAGE value="Tenth chrome driver" />
+    <MESSAGE value="eleven chrome driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="eleven chrome driver" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/TestCase/Dashboard_Testdata/java_int.java" />
@@ -481,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -509,10 +534,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/PageObject/DashBoardPage/DashBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="26" column="119" selection-start-line="26" selection-start-column="119" selection-end-line="26" selection-end-column="119" />
         </state>
       </provider>
     </entry>

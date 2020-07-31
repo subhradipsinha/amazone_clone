@@ -124,6 +124,8 @@ public class DashBoard extends TestBase {
             WebElement Search_1 = TestBase.byXpath("Search_Xpath");
             if(Search_1.isDisplayed()){
                Thread.sleep(2000);
+                Search_1.clear();
+                Thread.sleep(5000);
                 Search_1.sendKeys(TestData.getProperty("Mobile_name_1"));
                 SoftAssert softAssertion5= new SoftAssert();
                 System.out.println("Second Item Search");
@@ -131,7 +133,7 @@ public class DashBoard extends TestBase {
                 System.out.println("softAssert Method Was Executed");
                 Thread.sleep(3000);
                 driver.navigate().refresh();
-                Thread.sleep(3000);
+                Thread.sleep(5000);
             }else {
                 System.out.println("Second Item not Search");
                 SoftAssert softAssertion5= new SoftAssert();
@@ -159,7 +161,7 @@ public class DashBoard extends TestBase {
                 Thread.sleep(3000);
 
                 ((JavascriptExecutor) TestBase.driver).executeScript("scroll(0,300)");
-                Thread.sleep(3000);
+                Thread.sleep(5000);
 
                 // Second time Item Selected
                 WebElement Selected_Product_1 = TestBase.byXpath("Item_Selected_1");

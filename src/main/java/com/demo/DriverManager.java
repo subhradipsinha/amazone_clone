@@ -25,13 +25,13 @@ public class DriverManager extends ConfigarationManager {
         ConfigarationManager.conficfile();
         String Url = ConfigarationManager.config.getProperty("URLTest");
         String browsername = ConfigarationManager.config.getProperty("browser");
-        if (browsername.equalsIgnoreCase("Firefox")) {
+        if (browsername.equalsIgnoreCase("Chrome")) {
 
-            System.setProperty("webdriver.gecko.driver", "E:\\sw\\Homework1\\amazone-master\\Driver3\\geckodriver.exe");
+            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver3\\chromedriver.exe");
             System.out.println("hit Chrome Driver");
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
             Thread.sleep(5000);
-            System.out.println("Firefox Driver open");
+            System.out.println("Chrome Driver open");
             driver.manage().window().maximize();
 
         }

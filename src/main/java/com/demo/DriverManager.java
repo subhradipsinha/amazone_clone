@@ -27,7 +27,7 @@ public class DriverManager extends ConfigarationManager {
         String browsername = ConfigarationManager.config.getProperty("browser");
         if (browsername.equalsIgnoreCase("Chrome")) {
 
-            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver2\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver3\\chromedriver.exe");
             System.out.println("hit Chrome Driver");
             driver = new ChromeDriver();
             Thread.sleep(5000);

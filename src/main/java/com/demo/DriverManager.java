@@ -29,7 +29,7 @@ public class DriverManager extends ConfigarationManager {
 
             System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver\\chromedriver.exe");
             System.out.println("hit Chrome Driver");
-            ChromeDriver driver = new ChromeDriver();
+            driver = new ChromeDriver();
             Thread.sleep(5000);
             System.out.println("Chrome Driver open");
             driver.manage().window().maximize();

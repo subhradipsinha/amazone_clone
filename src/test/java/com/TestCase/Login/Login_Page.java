@@ -10,9 +10,6 @@ public class Login_Page {
     @Test(priority = 2)
     public void Url_Hit() throws Exception {
         login.init();
-        login.Mouse_Hover();
-        login.softassert();
-        login.Email();
-        login.Password();
+
     }
 }

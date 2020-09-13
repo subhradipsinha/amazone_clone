@@ -1,14 +1,10 @@
 package com.demo;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
+
 
 /**
  * @Author Subhradip sinha
@@ -27,7 +23,7 @@ public class DriverManager extends ConfigarationManager {
         String browsername = ConfigarationManager.config.getProperty("browser");
         if (browsername.equalsIgnoreCase("Chrome")) {
 
-            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver3\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "E:\\sw\\Homework1\\amazone-master\\Driver_Window_32_\\chromedriver.exe");
             System.out.println("hit Chrome Driver");
             driver = new ChromeDriver();
             Thread.sleep(5000);

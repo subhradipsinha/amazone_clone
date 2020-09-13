@@ -2,10 +2,8 @@ package com.PageObject.DashBoardPage;
 
 import com.demo.TestBase;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import java.util.ArrayList;
@@ -19,13 +17,16 @@ public class DashBoard extends TestBase {
         // Search Tab working or Not
         WebElement Search_testbox = TestBase.byXpath("Search_Xpath");
         if(Search_testbox.isDisplayed()){
+
             Search_testbox.clear();
             Thread.sleep(2000);
             Search_testbox.sendKeys(TestData.getProperty("Mobile_name"));
             Thread.sleep(2000);
-            SoftAssert softAssertion= new SoftAssert();
+
+            String accual= "Search_Xpath";
+            String expect = "Not find Search Box";
             System.out.println("softAssert Method Was Started");
-            softAssertion.assertTrue(false);
+            Assert.assertEquals(accual,expect,"False");
             System.out.println("softAssert Method Was Executed");
         }
         else {
